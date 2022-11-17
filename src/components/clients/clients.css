@@ -1,0 +1,66 @@
+#clientsWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #282828;
+    background-image: url('../images/backgroundClients.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 120px 18%;
+}
+
+#clientsWrapper > h1 {
+    font-weight: 600;
+    font-size: 100px;
+    line-height: 118px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+#clientsWrapper > .mainBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+#clientsWrapper > .mainBlock > .list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 50px;
+    gap: 40px;
+    width: 72%;
+    overflow: hidden;
+}
+#clientsWrapper .client {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+#clientsWrapper .client > span {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: lowercase;
+
+    color: #ffffff;
+}
+
+#clientsWrapper > .mainBlock > .arrows {
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#clientsWrapper .arrows > svg {
+    width: 20%;
+}

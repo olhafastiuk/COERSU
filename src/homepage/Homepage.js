@@ -1,4 +1,5 @@
 import AboutUs from '../components/aboutUs/AboutUs';
+import Clients from '../components/clients/Clients';
 import Header from '../components/header/Header';
 import HeroBlock from '../components/heroBlock/HeroBlock';
 import Projects from '../components/projects/Projects';
@@ -17,6 +18,7 @@ export default function Homepage() {
             <Projects />
             <Technologies />
             <WhyUsBlock />
+            <Clients />
         </>
     );
 }
