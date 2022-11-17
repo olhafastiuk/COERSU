@@ -3,6 +3,7 @@ import Header from '../components/header/Header';
 import HeroBlock from '../components/heroBlock/HeroBlock';
 import Projects from '../components/projects/Projects';
 import Services from '../components/services/Services';
+import Technologies from '../components/technologies/Technologies';
 import './homepage.css';
 
 export default function Homepage() {
@@ -13,6 +14,7 @@ export default function Homepage() {
             <AboutUs />
             <Services />
             <Projects />
+            <Technologies />
         </>
     );
 }

@@ -1,0 +1,48 @@
+#technologiesWrapper {
+    height: auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 120px;
+}
+
+#technologiesWrapper > h1 {
+    font-weight: 600;
+    font-size: 100px;
+    line-height: 118px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 120px 10% 50px;
+}
+
+.technologiesBlock {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    width: 80%;
+}
+
+.technologiesBlock > h3 {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    width: 20%;
+    padding-top: 50px;
+}
+
+.technology {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    gap: 10px;
+}
+
+.technology > img {
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+}
