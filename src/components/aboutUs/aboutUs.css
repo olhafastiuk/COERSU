@@ -1,0 +1,31 @@
+#aboutUsWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 727px;
+    color: white;
+    padding: 0 15%;
+}
+
+#aboutUsWrapper h1 {
+    font-weight: 600;
+    font-size: 100px;
+    line-height: 118px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#aboutUsWrapper div {
+    display: flex;
+    justify-content: space-between;
+    gap: 98px;
+    padding: 32px 89px;
+}
+
+#aboutUsWrapper p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: lowercase;
+}
