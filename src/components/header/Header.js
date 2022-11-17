@@ -16,7 +16,7 @@ export default function Header() {
             <div className="headerGroup">
                 <div>
                     <a href="#aboutUsWrapper">about us</a>
-                    <a href="">services</a>
+                    <a href="#servicesWrapper">services</a>
                     <a href="">technology</a>
                     <a href="">our projects</a>
                 </div>
