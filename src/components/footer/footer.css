@@ -1,0 +1,36 @@
+#footerWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    color: white;
+    padding: 60px 10% 120px;
+}
+
+#footerWrapper > div {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+#footerWrapper .logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+
+    height: ;
+}
+
+#footerWrapper .logo svg {
+    padding: 0 20% 10px;
+}
+
+.footerGroup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
