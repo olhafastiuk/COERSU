@@ -1,0 +1,30 @@
+#headerWrapper {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    margin: 55px 5%;
+    height: 50px;
+    width: 90%;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: lowercase;
+}
+
+.headerGroup {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 38%;
+}
+
+.headerGroup > div {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+
+#headerWrapper img {
+    width: 150px;
+}
