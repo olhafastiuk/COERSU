@@ -4,6 +4,7 @@ import HeroBlock from '../components/heroBlock/HeroBlock';
 import Projects from '../components/projects/Projects';
 import Services from '../components/services/Services';
 import Technologies from '../components/technologies/Technologies';
+import WhyUsBlock from '../components/whyUsBlock/WhyUsBlock';
 import './homepage.css';
 
 export default function Homepage() {
@@ -15,6 +16,7 @@ export default function Homepage() {
             <Services />
             <Projects />
             <Technologies />
+            <WhyUsBlock />
         </>
     );
 }
