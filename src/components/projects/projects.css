@@ -1,0 +1,94 @@
+#projectsWrapper {
+    height: auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#projectsWrapper > h1 {
+    font-weight: 600;
+    font-size: 100px;
+    line-height: 118px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 120px 10% 50px;
+}
+
+.vrLine {
+    width: 90%;
+    margin: 30px 0 15px;
+    border-top: 1px solid #898989;
+}
+
+.projectsMenu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 25%;
+    margin: 0;
+    width: 40%;
+}
+
+.projectsMenu > p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #898989;
+    text-transform: lowercase;
+}
+
+.projectsMenu > .active {
+    color: white;
+}
+
+#webSitesBlock {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    padding: 0 0 60px 0;
+}
+
+.projectBlock {
+    display: flex;
+    width: 50%;
+}
+
+.projectBlock > img {
+    object-fit: cover;
+    aspect-ratio: 1/1;
+    width: 50%;
+}
+
+.projectBlock > .projectInfo {
+    width: 50%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+}
+
+.projectInfo > p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: lowercase;
+    color: #434343;
+}
+
+.projectInfo > h4 {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: #434343;
+}
+
+.projectInfo > h3 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: capitalize;
+    letter-spacing: 0.15px;
+    color: #0b0b0b;
+}

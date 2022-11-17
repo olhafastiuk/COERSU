@@ -17,8 +17,9 @@ export default function Header() {
                 <div>
                     <a href="#aboutUsWrapper">about us</a>
                     <a href="#servicesWrapper">services</a>
+                    <a href="#projectsWrapper">our projects</a>
+
                     <a href="">technology</a>
-                    <a href="">our projects</a>
                 </div>
                 <button className="dark">Contact us</button>
             </div>
