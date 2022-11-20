@@ -1,4 +1,4 @@
-#technologiesWrapper {
+#technologies {
     height: auto;
     color: white;
     display: flex;
@@ -8,7 +8,7 @@
     padding-bottom: 120px;
 }
 
-#technologiesWrapper > h1 {
+#technologies > h1 {
     font-weight: 600;
     font-size: 100px;
     line-height: 118px;

@@ -2,7 +2,7 @@ import './aboutUs.css';
 
 export default function AboutUs() {
     return (
-        <div id="aboutUsWrapper">
+        <div id="aboutUs">
             <h1>valuable and unique that’s our mantra </h1>
             <div>
                 <p>

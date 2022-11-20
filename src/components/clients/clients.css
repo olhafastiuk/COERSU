@@ -1,4 +1,4 @@
-#clientsWrapper {
+#clients {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -10,7 +10,7 @@
     padding: 120px 18%;
 }
 
-#clientsWrapper > h1 {
+#clients > h1 {
     font-weight: 600;
     font-size: 100px;
     line-height: 118px;
@@ -19,7 +19,7 @@
     color: white;
 }
 
-#clientsWrapper > .mainBlock {
+#clients > .mainBlock {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,7 +27,7 @@
     gap: 60px;
 }
 
-#clientsWrapper > .mainBlock > .list {
+#clients > .mainBlock > .list {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -36,7 +36,7 @@
     width: 72%;
     overflow: hidden;
 }
-#clientsWrapper .client {
+#clients .client {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -44,7 +44,7 @@
     gap: 80px;
 }
 
-#clientsWrapper .client > span {
+#clients .client > span {
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
@@ -53,7 +53,7 @@
     color: #ffffff;
 }
 
-#clientsWrapper > .mainBlock > .arrows {
+#clients > .mainBlock > .arrows {
     display: flex;
     width: 70%;
     justify-content: center;
@@ -61,6 +61,6 @@
     gap: 20px;
 }
 
-#clientsWrapper .arrows > svg {
+#clients .arrows > svg {
     width: 20%;
 }

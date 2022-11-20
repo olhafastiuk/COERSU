@@ -3,7 +3,7 @@ import img from '../images/services.png';
 
 export default function Services() {
     return (
-        <div id="servicesWrapper">
+        <div id="services">
             <h1>what we do</h1>
             <div className="servicesMain">
                 <div className="servicesTextBlock">

@@ -7,7 +7,7 @@ import './projects.css';
 
 export default function Projects() {
     return (
-        <div id="projectsWrapper">
+        <div id="projects">
             <h1>case studies</h1>
             <div className="vrLine projectsMenu">
                 <p className="active">web sites</p>

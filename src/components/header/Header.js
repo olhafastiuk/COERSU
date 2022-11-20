@@ -15,13 +15,15 @@ export default function Header() {
             </div>
             <div className="headerGroup">
                 <div>
-                    <a href="#aboutUsWrapper">about us</a>
-                    <a href="#servicesWrapper">services</a>
-                    <a href="#projectsWrapper">our projects</a>
+                    <a href="#aboutUs">about us</a>
+                    <a href="#services">services</a>
+                    <a href="#projects">our projects</a>
 
-                    <a href="#technologiesWrapper">technology</a>
+                    <a href="#technologies">technology</a>
                 </div>
-                <button className="dark">Contact us</button>
+                <button className="dark">
+                    <a href="#contacts">Contact us</a>
+                </button>
             </div>
         </div>
     );

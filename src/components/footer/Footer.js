@@ -24,11 +24,11 @@ export default function Footer() {
                     <img src={logo} alt="coersu" />
                 </div>
                 <div className="footerGroup">
-                    <a href="#aboutUsWrapper">about us</a>
-                    <a href="#servicesWrapper">services</a>
-                    <a href="#projectsWrapper">our projects</a>
+                    <a href="#aboutUs">about us</a>
+                    <a href="#services">services</a>
+                    <a href="#projects">our projects</a>
 
-                    <a href="#technologiesWrapper">technology</a>
+                    <a href="#technologies">technology</a>
                 </div>
                 <div className="footerGroup">
                     <a href="">facebook</a>

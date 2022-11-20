@@ -2,7 +2,7 @@ import './technologies.css';
 
 export default function Technologies() {
     return (
-        <div id="technologiesWrapper">
+        <div id="technologies">
             <h1>the stack we provide</h1>
             <div className="vrLine"></div>
             <div className="technologiesBlock">

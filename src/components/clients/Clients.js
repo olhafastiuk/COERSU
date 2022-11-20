@@ -2,7 +2,7 @@ import './clients.css';
 
 export default function Clients() {
     return (
-        <div id="clientsWrapper">
+        <div id="clients">
             <h1>who we worked with</h1>
             <div className="mainBlock">
                 <div className="list">

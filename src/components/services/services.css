@@ -1,4 +1,4 @@
-#servicesWrapper {
+#services {
     background: white;
     display: flex;
     justify-content: center;
@@ -7,7 +7,7 @@
     color: #0b0b0b;
 }
 
-#servicesWrapper > h1 {
+#services > h1 {
     padding: 120px 10% 0;
 
     font-weight: 600;

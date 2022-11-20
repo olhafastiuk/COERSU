@@ -2,7 +2,7 @@ import './contacts.css';
 
 export default function Contacts() {
     return (
-        <div id="contactsWrapper">
+        <div id="contacts">
             <h1>Let’s partner up</h1>
             <div id="contactsForm">
                 <input placeholder="name" type="text"></input>

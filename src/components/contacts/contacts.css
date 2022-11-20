@@ -1,4 +1,4 @@
-#contactsWrapper {
+#contacts {
     background: white;
     display: flex;
     justify-content: center;
@@ -8,7 +8,7 @@
     padding: 120px 10%;
 }
 
-#contactsWrapper > h1 {
+#contacts > h1 {
     font-weight: 600;
     font-size: 100px;
     line-height: 118px;
