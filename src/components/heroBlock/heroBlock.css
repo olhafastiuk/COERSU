@@ -9,6 +9,11 @@
 #heroBlockWrapper > .logo {
     width: 440px;
 }
+
+#heroBlockWrapper > .logo path:hover {
+    fill: #ffffff17;
+}
+
 #heroBlockWrapper div {
     display: flex;
     flex-direction: column;
@@ -29,4 +34,24 @@
     line-height: 21px;
     text-transform: lowercase;
     color: #ffffff;
+}
+@media (max-width: 1350px) {
+    #heroBlockWrapper h1 {
+        font-size: 160px;
+        line-height: 188px;
+    }
+}
+
+@media (max-width: 500px) {
+    #heroBlockWrapper {
+        height: 523px;
+    }
+    #heroBlockWrapper h1 {
+        font-size: 80px;
+        line-height: 94px;
+    }
+
+    #heroBlockWrapper > .logo {
+        width: 282px;
+    }
 }
