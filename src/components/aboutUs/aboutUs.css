@@ -29,3 +29,34 @@
     line-height: 24px;
     text-transform: lowercase;
 }
+
+@media (max-width: 1350px) {
+    #aboutUs {
+        padding: 0 5%;
+    }
+    #aboutUs h1 {
+        font-size: 52px;
+        line-height: 61px;
+    }
+    #aboutUs div {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 550px) {
+    #aboutUs {
+        padding: 0 20px;
+        height: 932px;
+    }
+
+    #aboutUs div {
+        padding: 30px 0;
+    }
+}
+
+@media (max-width: 350px) {
+    #aboutUs {
+        height: 1050px;
+    }
+}
