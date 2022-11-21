@@ -35,7 +35,7 @@
     text-transform: lowercase;
     color: #ffffff;
 }
-@media (max-width: 1350px) {
+@media (max-width: 1370px) {
     #heroBlockWrapper h1 {
         font-size: 160px;
         line-height: 188px;

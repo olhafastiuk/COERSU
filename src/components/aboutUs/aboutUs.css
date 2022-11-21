@@ -30,7 +30,7 @@
     text-transform: lowercase;
 }
 
-@media (max-width: 1350px) {
+@media (max-width: 1370px) {
     #aboutUs {
         padding: 0 5%;
     }
