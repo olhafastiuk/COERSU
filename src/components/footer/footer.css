@@ -14,14 +14,17 @@
     justify-content: space-between;
     align-items: center;
 }
+
+#footerWrapper .logo path {
+    fill: #f8f8f8;
+}
+
 #footerWrapper .logo {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 140px;
-
-    height: ;
+    width: 130px;
 }
 
 #footerWrapper .logo svg {

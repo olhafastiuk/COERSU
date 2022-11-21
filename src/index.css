@@ -40,6 +40,12 @@ button.white {
     color: #0b0b0b;
 }
 
+button.menu {
+    border: 2px solid #0b0b0b;
+    background: none;
+    color: #0b0b0b;
+}
+
 a {
     text-decoration: none;
     color: inherit;
