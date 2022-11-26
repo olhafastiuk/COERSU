@@ -7,7 +7,8 @@
     background-image: url('../images/backgroundClients.svg');
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 120px 18%;
+    padding: 120px 10%;
+    width: 80%;
 }
 
 #clients > h1 {
@@ -25,6 +26,7 @@
     align-items: center;
     justify-content: center;
     gap: 60px;
+    width: 100%;
 }
 
 #clients > .mainBlock > .list {
@@ -33,7 +35,7 @@
     align-items: center;
     margin-top: 50px;
     gap: 40px;
-    width: 72%;
+    width: 100%;
     overflow: hidden;
 }
 #clients .client {
@@ -41,7 +43,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 80px;
+    gap: 12px;
+    height: 200px;
+}
+#clients .client > img {
+    height: 80%;
 }
 
 #clients .client > span {
@@ -55,12 +61,52 @@
 
 #clients > .mainBlock > .arrows {
     display: flex;
-    width: 70%;
+    width: 100%;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 80px;
 }
 
 #clients .arrows > svg {
     width: 20%;
+}
+
+@media (max-width: 1370px) {
+    #clients > h1 {
+        font-size: 52px;
+        line-height: 61px;
+    }
+
+    #clients {
+        padding: 120px 5%;
+        width: 90%;
+    }
+
+    #clients > .mainBlock > .arrows {
+        width: 100%;
+    }
+
+    #clients .arrows > svg {
+        width: 100%;
+    }
+
+    #clients .client {
+        height: 118px;
+    }
+    #clients .client > img {
+        height: 65%;
+    }
+    #clients > .mainBlock > .list {
+        gap: 20px;
+    }
+}
+
+@media (max-width: 550px) {
+    #clients {
+        padding: 75px 5%;
+    }
+
+    #clients .client {
+        height: 123px;
+    }
 }
