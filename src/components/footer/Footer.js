@@ -41,7 +41,7 @@ export default function Footer() {
 
                     <a href="#technologies">technology</a>
                 </div>
-                <div className="footerGroup">
+                <div className="footerGroup second">
                     <a href="">facebook</a>
                     <a href="">linkedin</a>
                     <a href="">instagram</a>
