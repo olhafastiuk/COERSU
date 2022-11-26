@@ -46,3 +46,44 @@
     object-position: center;
     width: 100%;
 }
+
+@media (max-width: 1370px) {
+    #technologies > h1 {
+        font-size: 52px;
+        line-height: 61px;
+
+        padding: 120px 5% 32px;
+    }
+
+    .technologiesBlock > h3 {
+        font-size: 22px;
+        line-height: 26px;
+        width: 100%;
+        padding-top: 30px;
+        position: absolute;
+        top: 0;
+    }
+
+    .technologiesBlock {
+        padding: 73px 0 64px;
+        position: relative;
+        width: 90%;
+        gap: 20px;
+    }
+    .technology {
+        margin: 0;
+    }
+}
+
+@media (max-width: 900px) {
+    .technologiesBlock {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 550px) {
+    .technologiesBlock > h3 {
+        text-align: center;
+    }
+}
