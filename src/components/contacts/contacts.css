@@ -44,3 +44,29 @@
 #contactsForm > input::placeholder {
     color: #b9b9b9c7;
 }
+
+@media (max-width: 1370px) {
+    #contacts {
+        padding: 120px 5%;
+    }
+    #contacts > h1 {
+        font-size: 52px;
+        line-height: 61px;
+    }
+    #contactsForm {
+        width: 30%;
+        margin: 32px 0 64px;
+    }
+}
+
+@media (max-width: 900px) {
+    #contactsForm {
+        width: 50%;
+    }
+}
+
+@media (max-width: 550px) {
+    #contactsForm {
+        width: 100%;
+    }
+}
