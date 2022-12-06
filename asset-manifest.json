@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/COERSU/static/css/main.1ebe9caa.css",
-    "main.js": "/COERSU/static/js/main.37b401c1.js",
+    "main.css": "/COERSU/static/css/main.3c095286.css",
+    "main.js": "/COERSU/static/js/main.9bb8ebc6.js",
     "static/js/787.323ab20c.chunk.js": "/COERSU/static/js/787.323ab20c.chunk.js",
     "static/media/services.png": "/COERSU/static/media/services.7c0082f645532d33c1ba.png",
     "static/media/project4.jpg": "/COERSU/static/media/project4.2add5da612f0fb4405dd.jpg",
@@ -15,12 +15,12 @@
     "static/media/Rectangle.jpg": "/COERSU/static/media/Rectangle.c3e3f7c03fb535788e27.jpg",
     "static/media/backgroundClients.svg": "/COERSU/static/media/backgroundClients.7e8700656e5aa2e82ac5.svg",
     "index.html": "/COERSU/index.html",
-    "main.1ebe9caa.css.map": "/COERSU/static/css/main.1ebe9caa.css.map",
-    "main.37b401c1.js.map": "/COERSU/static/js/main.37b401c1.js.map",
+    "main.3c095286.css.map": "/COERSU/static/css/main.3c095286.css.map",
+    "main.9bb8ebc6.js.map": "/COERSU/static/js/main.9bb8ebc6.js.map",
     "787.323ab20c.chunk.js.map": "/COERSU/static/js/787.323ab20c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ebe9caa.css",
-    "static/js/main.37b401c1.js"
+    "static/css/main.3c095286.css",
+    "static/js/main.9bb8ebc6.js"
   ]
 }
