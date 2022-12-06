@@ -1,50 +1,117 @@
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, FreeMode, Pagination } from 'swiper';
+
+import 'swiper/css';
+import 'swiper/css/navigation';
+
 import './clients.css';
+import { useEffect, useState } from 'react';
 
 export default function Clients() {
+    const [slidesPerView, setSlidesPerView] = useState(5);
+
+    const checkDevice = () => {
+        if (window.innerWidth >= 1200) {
+            setSlidesPerView(5);
+        } else if (window.innerWidth <= 1200 && window.innerWidth >= 600) {
+            setSlidesPerView(3.5);
+        } else if (window.innerWidth <= 600) {
+            setSlidesPerView(2.5);
+        }
+    };
+
+    useEffect(() => {
+        window.addEventListener('resize', checkDevice);
+        return () => {
+            window.removeEventListener('resize', checkDevice);
+        };
+    });
     return (
         <div id="clients">
             <h1>who we worked with</h1>
             <div className="mainBlock">
-                <div className="list">
-                    <div className="client">
-                        <img src={require('../images/clients/Rectangle.jpg')} />
-                        <span>Google</span>
-                    </div>
-                    <div className="client">
-                        <img
-                            src={require('../images/clients/Rectangle-1.jpg')}
-                        />
-                        <span>tesla</span>
-                    </div>
-                    <div className="client">
-                        <img
-                            src={require('../images/clients/Rectangle-2.jpg')}
-                        />
-                        <span>red bull</span>
-                    </div>
-                    <div className="client">
-                        <img
-                            src={require('../images/clients/Rectangle-3.jpg')}
-                        />
-                        <span>la coste</span>
-                    </div>
-                    <div className="client">
-                        <img
-                            src={require('../images/clients/Rectangle-4.jpg')}
-                        />
-                        <span>airbnb</span>
-                    </div>
-                    <div className="client">
-                        <img src={require('../images/clients/Rectangle.jpg')} />
-                        <span>Google</span>
-                    </div>
-                    <div className="client">
-                        <img src={require('../images/clients/Rectangle.jpg')} />
-                        <span>Google</span>
-                    </div>
-                </div>
+                <Swiper
+                    spaceBetween={20}
+                    slidesPerView={slidesPerView}
+                    navigation={{
+                        prevEl: '.arrow-prev',
+                        nextEl: '.arrow-next',
+                    }}
+                    freeMode={true}
+                    loop={true}
+                    pagination={{
+                        clickable: true,
+                    }}
+                    modules={[Navigation, FreeMode, Pagination]}
+                    className="mySwiper">
+                    <SwiperSlide>
+                        <div>
+                            <img
+                                src={require('../images/clients/Rectangle.jpg')}
+                            />
+                            <span>Google</span>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div>
+                            <img
+                                src={require('../images/clients/Rectangle-1.jpg')}
+                            />
+                            <span>tesla</span>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div>
+                            <img
+                                src={require('../images/clients/Rectangle-2.jpg')}
+                            />
+                            <span>red bull</span>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div>
+                            <img
+                                src={require('../images/clients/Rectangle-3.jpg')}
+                            />
+                            <span>la coste</span>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div>
+                            <img
+                                src={require('../images/clients/Rectangle-4.jpg')}
+                            />
+                            <span>airbnb</span>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div>
+                            <img
+                                src={require('../images/clients/Rectangle.jpg')}
+                            />
+                            <span>Google</span>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div>
+                            <img
+                                src={require('../images/clients/Rectangle-1.jpg')}
+                            />
+                            <span>tesla</span>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div>
+                            <img
+                                src={require('../images/clients/Rectangle-2.jpg')}
+                            />
+                            <span>red bull</span>
+                        </div>
+                    </SwiperSlide>
+                </Swiper>
                 <div className="arrows">
                     <svg
+                        className="arrow-prev"
                         viewBox="0 0 265 15"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -54,6 +121,7 @@ export default function Clients() {
                         />
                     </svg>
                     <svg
+                        className="arrow-next"
                         viewBox="0 0 265 15"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg">
