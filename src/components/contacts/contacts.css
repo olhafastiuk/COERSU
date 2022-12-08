@@ -41,8 +41,26 @@
     color: #0b0b0b;
 }
 
+#contactsForm button {
+    margin-top: 20px;
+}
+
 #contactsForm > input::placeholder {
     color: #b9b9b9c7;
+}
+
+#pop-up {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.749);
+    color: white;
+    width: 40%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.displayNone {
+    display: none !important;
 }
 
 @media (max-width: 1370px) {
