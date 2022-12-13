@@ -38,6 +38,10 @@
     gap: 35px;
 }
 
+.footerGroup p {
+    cursor: pointer;
+}
+
 @media (max-width: 1250px) {
     .footerGroup {
         flex-direction: column;

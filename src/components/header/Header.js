@@ -1,14 +1,18 @@
-import { useRef, useState } from 'react';
+import { useContext, useRef, useState } from 'react';
+import Context from '../../context/Context';
 import './header.css';
 
 export default function Header() {
+    const { scroll } = useContext(Context);
+
     const [menuState, setMenuState] = useState('false');
+    const mobileDevice = window.innerWidth <= 1370;
     const mobileMenu = useRef();
     const mobileMenuIcon = useRef();
     const logo = useRef();
 
     const changeMobileMenu = () => {
-        setMenuState(!menuState);
+        mobileDevice && setMenuState(!menuState);
         menuState
             ? mobileMenu.current.classList.add('open')
             : mobileMenu.current.classList.remove('open');
@@ -88,25 +92,46 @@ export default function Header() {
                 <div className="hr-line"></div>
                 <div className="headerGroup">
                     <div>
-                        <a onClick={() => changeMobileMenu()} href="#aboutUs">
+                        <p
+                            onClick={() => {
+                                changeMobileMenu();
+                                scroll('aboutUs');
+                            }}>
                             about us
-                        </a>
-                        <a onClick={() => changeMobileMenu()} href="#services">
+                        </p>
+                        <p
+                            onClick={() => {
+                                changeMobileMenu();
+                                scroll('services');
+                            }}>
                             services
-                        </a>
-                        <a onClick={() => changeMobileMenu()} href="#projects">
+                        </p>
+                        <p
+                            onClick={() => {
+                                changeMobileMenu();
+                                scroll('projects');
+                            }}>
                             our projects
-                        </a>
-                        <a
-                            onClick={() => changeMobileMenu()}
-                            href="#technologies">
+                        </p>
+                        <p
+                            onClick={() => {
+                                changeMobileMenu();
+                                scroll('technologies');
+                            }}>
                             technology
-                        </a>
+                        </p>
                     </div>
-                    <button className={menuState ? 'dark' : 'menu'}>
-                        <a onClick={() => changeMobileMenu()} href="#contacts">
+                    <button
+                        className={
+                            menuState && !mobileDevice ? 'dark' : 'menu'
+                        }>
+                        <p
+                            onClick={() => {
+                                changeMobileMenu();
+                                scroll('contacts');
+                            }}>
                             Contact us
-                        </a>
+                        </p>
                     </button>
                 </div>
             </div>

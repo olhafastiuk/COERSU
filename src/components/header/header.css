@@ -33,6 +33,9 @@
     width: calc(100% - 250px);
     gap: 25px;
 }
+.headerGroup p {
+    cursor: pointer;
+}
 
 #headerWrapper .logo {
     width: 150px;

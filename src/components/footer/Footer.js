@@ -1,7 +1,10 @@
+import { useContext } from 'react';
+import Context from '../../context/Context';
 import './footer.css';
-// import logo from '../images/logo.png';
 
 export default function Footer() {
+    const { scroll } = useContext(Context);
+
     return (
         <div id="footerWrapper">
             <div>
@@ -35,11 +38,30 @@ export default function Footer() {
                     </svg>
                 </div>
                 <div className="footerGroup">
-                    <a href="#aboutUs">about us</a>
-                    <a href="#services">services</a>
-                    <a href="#projects">our projects</a>
-
-                    <a href="#technologies">technology</a>
+                    <p
+                        onClick={() => {
+                            scroll('aboutUs');
+                        }}>
+                        about us
+                    </p>
+                    <p
+                        onClick={() => {
+                            scroll('services');
+                        }}>
+                        services
+                    </p>
+                    <p
+                        onClick={() => {
+                            scroll('projects');
+                        }}>
+                        our projects
+                    </p>
+                    <p
+                        onClick={() => {
+                            scroll('technologies');
+                        }}>
+                        technology
+                    </p>
                 </div>
                 <div className="footerGroup second">
                     <a href="">facebook</a>
