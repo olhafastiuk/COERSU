@@ -7,6 +7,7 @@ import HeroBlock from '../components/heroBlock/HeroBlock';
 import Projects from '../components/projects/Projects';
 import Services from '../components/services/Services';
 import Technologies from '../components/technologies/Technologies';
+import UpButton from '../components/upButton/UpButton';
 import WhyUsBlock from '../components/whyUsBlock/WhyUsBlock';
 import './homepage.css';
 
@@ -23,6 +24,7 @@ export default function Homepage() {
             <Clients />
             <Contacts />
             <Footer />
+            <UpButton />
         </>
     );
 }
