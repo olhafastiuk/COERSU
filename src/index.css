@@ -5,10 +5,8 @@
 
 html,
 body {
-    margin: 0;
     font-family: 'Maven Pro', sans-serif;
     background: #282828;
-    overflow-x: hidden;
 }
 
 button {

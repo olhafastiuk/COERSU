@@ -38,7 +38,7 @@
 }
 
 #headerWrapper .logo {
-    width: 150px;
+    width: 125px;
     margin-right: 5%;
     position: relative;
     z-index: 1;
@@ -73,6 +73,9 @@
 }
 
 @media (max-width: 1370px) {
+    #headerWrapper {
+        margin-top: 20px;
+    }
     #menuMobileIcon {
         display: block;
     }
