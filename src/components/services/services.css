@@ -5,6 +5,7 @@
     align-items: center;
     flex-direction: column;
     color: #0b0b0b;
+    overflow: hidden;
 }
 
 #services > h1 {
@@ -20,7 +21,8 @@
 .servicesMain {
     display: flex;
     justify-content: space-between;
-    width: 90%;
+    width: 100%;
+    align-items: center;
     padding: 50px 0 120px 10%;
 }
 
@@ -49,6 +51,12 @@
     line-height: 24px;
     text-transform: lowercase;
     color: #6b6b6b;
+}
+
+.servicesMain img {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
 }
 
 @media (max-width: 1370px) {
