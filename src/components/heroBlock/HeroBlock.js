@@ -58,11 +58,13 @@ export default function HeroBlock() {
                 />
             </svg>
 
-            <div>
-                <h1>coersu</h1>
-                <p>IT service of the highest level</p>
+            <div className="content">
+                <div>
+                    <h1>coersu</h1>
+                    <p>IT service of the highest level</p>
+                </div>
+                <button className="white">start a project</button>
             </div>
-            <button className="white">start a project</button>
         </div>
     );
 }
