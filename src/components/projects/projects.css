@@ -5,6 +5,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 #projects > h1 {
@@ -63,6 +64,7 @@
     object-fit: cover;
     aspect-ratio: 1/1;
     width: 50%;
+    height: 100%;
 }
 
 .projectBlock > .projectInfo {
@@ -79,6 +81,7 @@
     line-height: 21px;
     text-transform: lowercase;
     color: #434343;
+    padding: 15px 0;
 }
 
 .projectInfo > h4 {
@@ -95,6 +98,8 @@
     text-transform: capitalize;
     letter-spacing: 0.15px;
     color: #0b0b0b;
+    margin-top: auto;
+    padding-bottom: 10px;
 }
 #webSites.displayNone,
 #brandIdentity.displayNone,
@@ -121,7 +126,27 @@
 }
 
 #projects .swiper-slide {
-    height: 100%;
+    height: 350px;
+}
+
+@media (max-width: 1500px) {
+    #projects .swiper-slide {
+        height: 300px;
+    }
+    .projectInfo > p {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .projectInfo > h4 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .projectInfo > h3 {
+        font-size: 16px;
+        line-height: 22px;
+    }
 }
 
 @media (max-width: 1370px) {
@@ -148,6 +173,9 @@
     #digitalProducts {
         width: 90%;
     }
+    #projects .swiper-slide {
+        height: 100%;
+    }
 }
 
 @media (max-width: 550px) {
@@ -159,6 +187,7 @@
     }
 
     .projectBlock > .projectInfo {
+        height: 300px;
         width: calc(100% - 48px);
     }
 
