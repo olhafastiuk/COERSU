@@ -1,5 +1,4 @@
 import AboutUs from '../components/aboutUs/AboutUs';
-import Clients from '../components/clients/Clients';
 import Contacts from '../components/contacts/Contacts';
 import Footer from '../components/footer/Footer';
 import Header from '../components/header/Header';
@@ -21,7 +20,6 @@ export default function Homepage() {
             <Projects />
             <Technologies />
             <WhyUsBlock />
-            <Clients />
             <Contacts />
             <Footer />
             <UpButton />
