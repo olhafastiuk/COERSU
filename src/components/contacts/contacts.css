@@ -16,13 +16,15 @@
     text-transform: uppercase;
 }
 
-#contactsForm {
+#contactsForm,
+#pop-up {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 25%;
     margin: 64px 0;
+    height: 300px;
 }
 
 #contactsForm > input {
@@ -50,15 +52,18 @@
 }
 
 #pop-up {
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.749);
-    color: white;
-    width: 40%;
-    height: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 50px;
 }
+
+#pop-up p {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+}
+
 .displayNone {
     display: none !important;
 }

@@ -1,9 +1,12 @@
-export default function SendFormPopUp({ display, text }) {
+export default function SendFormPopUp({ text, buttonState, onSubmit }) {
     return (
-        <div id="pop-up" className={display ? '' : 'displayNone'}>
-            <p>
-                {text ? 'The form has been submitted!' : 'Fill in all fields'}
-            </p>
+        <div id="pop-up">
+            <p>{text}</p>
+            {buttonState && (
+                <button onClick={() => onSubmit(false)}>
+                    Send Another Answer
+                </button>
+            )}
         </div>
     );
 }

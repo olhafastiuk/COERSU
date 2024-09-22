@@ -1,6 +1,11 @@
+import { useContext } from 'react';
+import Context from '../../context/Context';
+
 import './heroBlock.css';
 
 export default function HeroBlock() {
+    const { scroll } = useContext(Context);
+
     return (
         <div id="heroBlockWrapper">
             <svg
@@ -63,7 +68,9 @@ export default function HeroBlock() {
                     <h1>coersu</h1>
                     <p>IT service of the highest level</p>
                 </div>
-                <button className="white">start a project</button>
+                <button onClick={() => scroll('contacts')} className="white">
+                    start a project
+                </button>
             </div>
         </div>
     );

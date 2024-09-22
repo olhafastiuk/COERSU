@@ -21,8 +21,8 @@ export default function Homepage() {
             <Technologies />
             <WhyUsBlock />
             <Contacts />
-            <Footer />
-            <UpButton />
+            {/* <Footer /> */}
+            {/* <UpButton /> */}
         </>
     );
 }
