@@ -149,6 +149,13 @@
     }
 }
 
+@media (max-width: 1500px) {
+    #projects > h1 {
+        font-size: 90px;
+        padding: 90px 5% 32px;
+    }
+}
+
 @media (max-width: 1370px) {
     #projects > h1 {
         font-size: 52px;

@@ -36,6 +36,12 @@
     min-height: 280px;
 }
 
+@media (max-width: 1500px) {
+    #whyUsBlockWrapper > h1 {
+        font-size: 90px;
+    }
+}
+
 @media (max-width: 1370px) {
     #whyUsBlockWrapper > h1 {
         font-size: 52px;

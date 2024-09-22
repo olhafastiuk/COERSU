@@ -68,6 +68,12 @@
     display: none !important;
 }
 
+@media (max-width: 1500px) {
+    #contacts > h1 {
+        font-size: 90px;
+    }
+}
+
 @media (max-width: 1370px) {
     #contacts {
         padding: 120px 5%;

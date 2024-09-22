@@ -59,6 +59,13 @@
     width: 100%;
 }
 
+@media (max-width: 1500px) {
+    #services > h1 {
+        font-size: 90px;
+        padding: 80px 5% 0;
+    }
+}
+
 @media (max-width: 1370px) {
     #services > h1 {
         font-size: 52px;

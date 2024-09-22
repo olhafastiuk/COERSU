@@ -30,6 +30,15 @@
     text-transform: lowercase;
 }
 
+@media (max-width: 1500px) {
+    #aboutUs {
+        padding: 0 10%;
+    }
+    #aboutUs h1 {
+        font-size: 90px;
+    }
+}
+
 @media (max-width: 1370px) {
     #aboutUs {
         padding: 0 5%;
